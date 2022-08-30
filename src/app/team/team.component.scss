@@ -1,0 +1,38 @@
+.main {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.header {
+    font-size: 26pt;
+    margin: 25px 0px;
+}
+
+.bio {
+    font-size: 16pt;
+    line-height: 1.5em;
+}
+
+.bio-head {
+    font-size: 22pt;
+    margin: 20px 0px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.bio, .photo {
+    width: 50%;
+}
+
+.profile {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    position: sticky;
+    top: 50px;
+    border-radius: 25px;
+}

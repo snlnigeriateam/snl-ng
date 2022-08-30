@@ -2,3 +2,260 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+$primary: #062e36;
+$secondary: #6f0b8d;
+$danger: #ff0000;
+$links: #5cf784;
+
+$p-light: #5cf784;
+$p-dark: #03171b;
+$s-light: #538a8a;
+$s-dark: #132020;
+$d-light: #ffa667;
+$d-dark: #883900;
+
+$dark: #000000;
+$light: #ffffff;
+$warn: #ff6c00;
+
+$grey: #5e5e5e;
+
+a,
+.link-a {
+    color: $links;
+    text-decoration: none;
+}
+
+.alt-link-a {
+    color: $light;
+    text-decoration: none;
+}
+
+.alt-link-a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover,
+.link-a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.fl-right {
+    float: right;
+}
+
+.fl-left {
+    float: left;
+}
+
+.hov, .pointer {
+    cursor: pointer;
+}
+
+.primary {
+    color: $primary;
+}
+
+.dark {
+    color: $dark;
+}
+
+.secondary {
+    color: $secondary;
+}
+
+.primary {
+    color: $primary;
+}
+
+.danger {
+    color: $danger;
+}
+
+.warn {
+    color: $warn;
+}
+
+.grey-text {
+    color: $grey;
+}
+
+.p-light {
+    color: $p-light;
+}
+
+.p-dark {
+    color: $p-dark;
+}
+
+.s-light {
+    color: $s-light;
+}
+
+.s-dark {
+    color: $s-dark;
+}
+
+.dark {
+    color: $dark;
+}
+
+.light {
+    color: $light;
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg-p-dark {
+    background-color: $p-dark;
+}
+
+.bg-p-light {
+    background-color: $p-light;
+}
+
+.bg-s-light {
+    background-color: $s-light;
+}
+
+.bg-s-dark {
+    background-color: $s-dark;
+}
+
+.br-primary {
+    border-color: $primary;
+}
+
+.br-secondary {
+    border-color: $secondary;
+}
+
+.br-p-light {
+    border-color: $p-light;
+}
+
+.br-p-dark {
+    border-color: $p-dark;
+}
+
+.br-s-light {
+    border-color: $s-light;
+}
+
+.br-s-dark {
+    border-color: $s-dark;
+}
+
+textarea, textarea.mat-input-element {
+    height: 10em;
+    resize: none;
+}
+
+@media only screen and (max-width: 600px){
+    //smaller mobile devices
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .form-div {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    //small mobile devices
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .form-div {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    //tablets
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .form-div {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    //laptops and larger
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .form-div {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    //laptops and larger
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .form-div {
+        width: 50%;
+    }
+}
