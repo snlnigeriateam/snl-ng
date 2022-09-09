@@ -1,25 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@import "snl-theme.scss";
+@import "variables.scss";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@include angular-material-theme($my-theme);
 
-$primary: #062e36;
-$secondary: #6f0b8d;
-$danger: #ff0000;
-$links: #5cf784;
+html,
+body {
+    height: 100%;
+}
 
-$p-light: #5cf784;
-$p-dark: #03171b;
-$s-light: #538a8a;
-$s-dark: #132020;
-$d-light: #ffa667;
-$d-dark: #883900;
+@font-face {
+    font-family: Bahnschrift;
+    src: url(./assets/fonts/bahnschrift/BAHNSCHRIFT.TTF);
+}
 
-$dark: #000000;
-$light: #ffffff;
-$warn: #ff6c00;
+body {
+    margin: 0;
+    font-family: Bahnschrift, "Helvetica Neue", sans-serif;
+}
 
-$grey: #5e5e5e;
+*, .mat-typography {
+    font-family: Bahnschrift, sans-serif;
+}
 
 a,
 .link-a {
@@ -76,7 +79,8 @@ a:hover,
     float: left;
 }
 
-.hov, .pointer {
+.hov,
+.pointer {
     cursor: pointer;
 }
 
@@ -102,6 +106,10 @@ a:hover,
 
 .warn {
     color: $warn;
+}
+
+.success {
+    color: $success;
 }
 
 .grey-text {
@@ -180,12 +188,14 @@ a:hover,
     border-color: $s-dark;
 }
 
-textarea, textarea.mat-input-element {
+textarea,
+textarea.mat-input-element {
     height: 10em;
     resize: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
     //smaller mobile devices
     .mobile {
         display: block;
@@ -200,7 +210,8 @@ textarea, textarea.mat-input-element {
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
+
     //small mobile devices
     .mobile {
         display: block;
@@ -215,7 +226,8 @@ textarea, textarea.mat-input-element {
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
+
     //tablets
     .mobile {
         display: block;
@@ -230,7 +242,8 @@ textarea, textarea.mat-input-element {
     }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
+
     //laptops and larger
     .mobile {
         display: none;
@@ -245,7 +258,8 @@ textarea, textarea.mat-input-element {
     }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
+
     //laptops and larger
     .mobile {
         display: none;

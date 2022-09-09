@@ -1,5 +1,11 @@
+@import "variables.scss";
+
 .nav-item {
     padding-right: 40px;
+}
+
+.nav-item a {
+    color: $grey;
 }
 
 .mobile-nav-item{

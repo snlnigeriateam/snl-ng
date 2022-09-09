@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .intro {
     height: 350px;
     background-image: url('/assets/dot-grid.png');
@@ -6,11 +8,13 @@
 .banner-img {
     display: block;
     margin: 0 auto;
-    width: 30%;
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
 }
 
 .header {
-    margin: 15px 0px;
+    margin: 15px 0px 5px 0px;
     font-size: 36pt;
     line-height: 1.25em;
 }
@@ -44,7 +48,11 @@
     background-image: url('/assets/bg2.jpg');
     background-position: center;
     background-size: cover;
-    color: white;
+    color: black;
+
+    .card-subhead {
+        background-color: #dfdfdf60;
+    }
 }
 
 .card-header {
@@ -85,6 +93,20 @@
     .card-subhead {
         margin: 10px 0px 50px 0px;
     }
+
+    .card-footer {
+        .mat-raised-button {
+            padding: 0px 35px;
+            background-color: #ffffff6b ;
+            // border: 2px solid $dark;
+            border: none;
+        }
+        
+        .mat-raised-button:hover {
+            background-color: $dark;
+            color: white;
+        }
+    }
 }
 
 #fullBg {
@@ -95,11 +117,11 @@
 .mat-raised-button {
     padding: 0px 35px;
     background-color: #ffffff54;
-    border: 2px solid #062e36;
+    border: 2px solid $primary;
 }
 
 .mat-raised-button:hover {
-    background-color: #062e36;
+    background-color: $primary;
     color: white;
 }
 
@@ -150,11 +172,11 @@
     .mat-raised-button {
         padding: 0px 35px;
         background-color: #ffffff54;
-        border: 2px solid #062e36;
+        border: 2px solid $primary;
     }
     
     .mat-raised-button:hover {
-        background-color: #062e36;
+        background-color: $primary;
         color: white;
     }
 }
@@ -167,19 +189,22 @@
 
     .mat-raised-button {
         padding: 0px 35px;
-        background-color: transparent;
-        border: 2px solid black;
+        background-color: #ffffff;
+        border: 2px solid $light;
+        color: $p-dark;
     }
     
     .mat-raised-button:hover {
-        background-color: #062e36;
-        border-color: #062e36;
+        background-color: $primary;
+        border-color: $primary;
         color: white;
     }
 }
 
 #card7 {
-    background-color: #5cf784;
+    background-color: $grey;
+    color: #d8d8d8;
+    
     .card-img-div {
         background-image: url('/assets/bg7.jpg');
     }
@@ -191,8 +216,8 @@
     }
     
     .mat-raised-button:hover {
-        background-color: #062e36;
-        border-color: #062e36;
+        background-color: $primary;
+        border-color: $primary;
         color: white;
     }
 }
