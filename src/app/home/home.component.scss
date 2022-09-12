@@ -14,7 +14,7 @@
 }
 
 .header {
-    margin: 15px 0px 5px 0px;
+    margin: 25px 0px 5px 0px;
     font-size: 36pt;
     line-height: 1.25em;
 }
@@ -48,11 +48,10 @@
     background-image: url('/assets/bg2.jpg');
     background-position: center;
     background-size: cover;
-    color: black;
-
-    .card-subhead {
-        background-color: #dfdfdf60;
-    }
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-header {
@@ -67,17 +66,163 @@
     line-height: 1.5em;
 }
 
+#card3 {
+    background-image: url('/assets/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    .card-header {
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .card-subhead, .card-header {
+        background-color: #000000a6;
+    }
+}
+
 #card4 {
     background-image: url('/assets/bg4.jpg');
     background-position: center;
     background-size: cover;
-    // color: white;
-}
-
-#card3 {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    // color: white;
+
+    .card-header {
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .card-subhead, .card-header {
+        background-color: #c5c5c550;
+    }
+}
+
+.spread-div {
+    width: 100%;
+    text-align: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
+
+    .spread-card {
+        padding: 0px;
+        .card-header {
+            margin-top: 50px;
+        }
+
+        .card-subhead {
+            margin: 50px 3px 0px 3px;
+        }
+
+        .card-footer {
+            margin-top: 50px;
+        }
+    }
+
+    .spread-card-footer {
+        position: absolute;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .mat-raised-button {
+            padding: 0px 35px;
+            background-color: #ffffff6b;
+            border: none;
+        }
+        
+        .mat-raised-button:hover {
+            background-color: $dark;
+            color: white;
+        }
+    }
+}
+
+.spread {
+    width: 50%;
+}
+
+#spread1 {
+    background-image: url('/assets/spread1.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+
+    .card-subhead {
+        text-align: center;
+    }
+}
+
+#spread2 {
+    background-image: url('/assets/spread2.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+
+    .card-subhead {
+        text-align: center;
+    }
+}
+
+.grid {
+    width: 100%;
+    text-align: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
+}
+
+.grid-card {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .grid-img-div, .grid-text-div {
+        height: 50%;
+    }
+}
+
+#grid1 {
+    background-color: #d8d8d8;
+}
+
+#grid2 {
+    background-color: $primary;
+    color: $light;
+}
+
+#grid3 {
+    background-color: $dark;
+    color: $light;
+}
+
+#grid-img1 {
+    background-image: url('/assets/grid1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#grid-img2 {
+    background-image: url('/assets/grid2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#grid-img3 {
+    background-image: url('/assets/grid3.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .inter {
@@ -109,7 +254,7 @@
     }
 }
 
-#fullBg {
+#fullBg1 {
     background-image: url('/assets/bg-full.jpg');
     background-size: cover;
 }
@@ -284,6 +429,18 @@
     .tri-card {
         width: 33.3%;
     }
+
+    #spread1 {
+        .card-subhead {
+            text-align: right;
+        }
+    }
+
+    #spread2 {
+        .card-subhead {
+            text-align: left;
+        }
+    }
 }
 
 @media only screen and (min-width: 1200px){
@@ -303,5 +460,17 @@
 
     .tri-card {
         width: 33.3%;
+    }
+
+    #spread1 {
+        .card-subhead {
+            text-align: right;
+        }
+    }
+
+    #spread2 {
+        .card-subhead {
+            text-align: left;
+        }
     }
 }
