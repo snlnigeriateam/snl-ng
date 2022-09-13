@@ -29,12 +29,37 @@
     padding: 0px 10px;
 }
 
+// .sect.active{
+//     animation: typeIn 2s steps(28) forwards;
+// }
+// @keyframes typeIn {
+//     to { width: 100%; }
+// }
+
+// @keyframes move {
+//     from {
+//         offset-distance: 0%;
+//     }
+
+//     to {
+//         offset-distance: 100%;
+//     }
+// }
+
+// .sect {
+//     offset: path("M 100 100 L 300 100 L 200 300 z") auto;
+//     offset: 10px 30px;
+//     animation: move 3s linear infinite;
+//     width: 1%;
+// }
+
 .card {
     width: 100%;
     padding-top: 20px;
     text-align: center;
     height: 90vh;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #card1 {
@@ -80,7 +105,8 @@
         display: inline-block;
     }
 
-    .card-subhead, .card-header {
+    .card-subhead,
+    .card-header {
         background-color: #000000a6;
     }
 }
@@ -99,7 +125,8 @@
         display: inline-block;
     }
 
-    .card-subhead, .card-header {
+    .card-subhead,
+    .card-header {
         background-color: #c5c5c550;
     }
 }
@@ -113,6 +140,7 @@
 
     .spread-card {
         padding: 0px;
+
         .card-header {
             margin-top: 50px;
         }
@@ -139,7 +167,7 @@
             background-color: #ffffff6b;
             border: none;
         }
-        
+
         .mat-raised-button:hover {
             background-color: $dark;
             color: white;
@@ -188,7 +216,8 @@
     display: flex;
     flex-direction: column;
 
-    .grid-img-div, .grid-text-div {
+    .grid-img-div,
+    .grid-text-div {
         height: 50%;
     }
 }
@@ -242,11 +271,11 @@
     .card-footer {
         .mat-raised-button {
             padding: 0px 35px;
-            background-color: #ffffff6b ;
+            background-color: #ffffff6b;
             // border: 2px solid $dark;
             border: none;
         }
-        
+
         .mat-raised-button:hover {
             background-color: $dark;
             color: white;
@@ -310,6 +339,7 @@
 
 #card5 {
     background-color: #ffffff;
+
     .card-img-div {
         background-image: url('/assets/bg5.jpg');
     }
@@ -319,7 +349,7 @@
         background-color: #ffffff54;
         border: 2px solid $primary;
     }
-    
+
     .mat-raised-button:hover {
         background-color: $primary;
         color: white;
@@ -328,6 +358,7 @@
 
 #card6 {
     background-color: #d8d8d8;
+
     .card-img-div {
         background-image: url('/assets/bg6.jpg');
     }
@@ -338,7 +369,7 @@
         border: 2px solid $light;
         color: $p-dark;
     }
-    
+
     .mat-raised-button:hover {
         background-color: $primary;
         border-color: $primary;
@@ -349,7 +380,7 @@
 #card7 {
     background-color: $grey;
     color: #d8d8d8;
-    
+
     .card-img-div {
         background-image: url('/assets/bg7.jpg');
     }
@@ -359,7 +390,7 @@
         background-color: #ffffff;
         border: 2px solid #000000;
     }
-    
+
     .mat-raised-button:hover {
         background-color: $primary;
         border-color: $primary;
@@ -367,7 +398,8 @@
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+
     //smaller mobile devices
     .inter-card .card-subhead {
         background-color: #ffffff69;
@@ -379,7 +411,8 @@
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
+
     //small mobile devices
     .inter-card .card-subhead {
         background-color: #ffffff69;
@@ -391,7 +424,8 @@
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
+
     //tablets
     .card {
         width: 100%;
@@ -411,7 +445,8 @@
     }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
+
     //laptops and larger
     .inter-card .card-subhead {
         background-color: transparent;
@@ -443,7 +478,8 @@
     }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
+
     //laptops and larger
     .inter-card .card-subhead {
         background-color: transparent;
