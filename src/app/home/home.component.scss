@@ -29,29 +29,23 @@
     padding: 0px 10px;
 }
 
-// .sect.active{
-//     animation: typeIn 2s steps(28) forwards;
-// }
-// @keyframes typeIn {
-//     to { width: 100%; }
-// }
+.sect.active {
+    animation: moveUp 1.25s forwards;
+}
 
-// @keyframes move {
-//     from {
-//         offset-distance: 0%;
-//     }
+@keyframes moveUp {
+    from {
+        margin-top: 100px;
+    }
 
-//     to {
-//         offset-distance: 100%;
-//     }
-// }
+    to {
+        margin-top: 0px;
+    }
+}
 
-// .sect {
-//     offset: path("M 100 100 L 300 100 L 200 300 z") auto;
-//     offset: 10px 30px;
-//     animation: move 3s linear infinite;
-//     width: 1%;
-// }
+.sect {
+    margin-top: 100px;
+}
 
 .card {
     width: 100%;
