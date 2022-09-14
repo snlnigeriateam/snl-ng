@@ -223,12 +223,12 @@
 }
 
 #grid1 {
-    background-color: #d8d8d8;
+    background-color: $primary;
+    color: $light;
 }
 
 #grid2 {
-    background-color: $primary;
-    color: $light;
+    background-color: #d8d8d8;
 }
 
 #grid3 {
