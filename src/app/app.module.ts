@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TeamComponent } from './team/team.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TeamComponent } from './team/team.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    TeamComponent
+    TeamComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
