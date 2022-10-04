@@ -22,75 +22,71 @@ export class TeamComponent implements OnInit {
 	`;
 
 	t_3: string = `
-	I am Wale Sanya and am the Director of Operations of SNL Global.
-	I manage the day to day activities of the establishment and oversee other departments of our organisation
+	Wale Sanya is the Director of Operations at SNL Global.
+	He manages the day to day activities of the establishment and oversees other departments of our organisation
 	<br><br>
-	I have a Masters Degree in Mechanical Engineering and am a COREN certified engineer.
+	Wale is a COREN certified engineer who holds a bachelor's degree from the University of Ilorin and a
+	Masters Degree in Mechanical Engineering from Federal University of Technology, Minna.
 	<br><br>
-	I've also published a paper with IJSER (International Journal for Scientific and Engineering Research) and
-	I believe in dignity, honesty, humanity, dedication and professionalism.
+	Wale has published a paper with <a target="_blank" href="https://jsaer.com/">IJSER</a>
+	(International Journal for Scientific and Engineering Research) and believes in dignity, honesty, humanity,
+	dedication and professionalism.
 	<br><br>
-	I am passionate about success, people's welfare, and learning
-	<br><br>
-	I enjoy reading as well as watching and playing football.
+	Wale is passionate about success, people's welfare, and learning; he also enjoys reading as well as watching
+	and playing football.
 	`;
 	
 	t_4: string = `
-	I'm Bamkat Ephraim Musa and I am the Project Architect at SNL Global. I work on General building construction
+	Bamkat Ephraim Musa is the Project Architect at SNL Global. He works on general building construction
 	at SNL Global.
 	<br><br>
-	I'm a graduate of architecture with the University of Jos, Nigeria, and have worked on projects with:
+	Bamkat is a graduate of architecture with the University of Jos, Nigeria, and has worked on projects with:
 	<ul>
 		<li>UNICEF/European Union (EU), Kebbi state</li>
 		<li>Jos University Teaching Hospital(JUTH)</li>
-		<li>Bingham University Teaching hospital, Jos.</li>
+		<li>Bingham University Teaching Hospital, Jos.</li>
 		<li>Federal Capital Development Authority (FCDA)</li>
 	</ul>
-	I believe in using advanced solutions to bring about global change and having to explore potentials to
-	attain maximum satisfaction.
+	He believes in using advanced solutions to bring about global change and having to explore potentials to
+	attain maximum satisfaction. He's passionate about advanced technology bringing simplicity into day to day living.
 	<br><br>
-	I'm passionate about advanced technology bringing simplicity in our day to day living.
-	<br><br>
-	In my spare time, I play drums, basketball and cycling.
+	In his spare time, he enjoys cycling as well as playing basketball and the drums.
 	`;
 
 	t_5: string = `
-	I'm Makan King David, and I coordinate Media and IT endeavours at SNL Global. From sonic and visual elements, to
-	things going on in the background that make what we do work. I'm kind of a jack of all trades, a master of one or
-	two, but I'll let you be the judge of that.
+	Makan King David coordinates Media and IT endeavours at SNL Global. From sonic and visual elements, to
+	things going on in the background that make what we do work. He's a jack of all trades and an adept master of one or
+	two.
 	<br><br>
-	I have worked in the media industry for over 15 years in various capacities. In between, I picked up a degree in
-	Information Technology, and have added work in mobile design, web design, and digital marketing since then, with an
-	international publication to my repertoire.
+	He has worked in the media industry for over 15 years in various capacities. In between, he has picked up a degree in
+	Information Technology and has added work in mobile design, web design, and digital marketing as well as an
+	international publication.
 	<br><br>
-	I strongly believe that people should be at the centre of everything we do, which is why creating the most immersive
-	human experiences is all I've dedicated my life to. There's a laundry list of things I have been part of, and look
-	forward to being part of that embodies this belief. So I trust that you will be around to not only witness, but
-	experience in full all that I will be part of offering with SNL.
+	Makan strongly believes that people should be at the centre of everything we do, which is why creating the most immersive
+	human experiences is all he's dedicated his life to. There's a laundry list of things he has been part of, and looks
+	forward to being part of work that embodies this belief.
 	<br><br>
-	Shooting the breeze is probably my favourite thing to do whenever I get the chance, because what is life without a
-	healthy dose of levity? So, I look forward to having the most meaningful fun with as many people as possible.
-	<br><br>
-	Let's get it!
+	Shooting the breeze is probably his favourite thing to do whenever he gets the chance, because what is life without a
+	healthy dose of levity? He looks forward to having the most meaningful fun with as many people as possible.
 	`;
 
 	t_6: string = `
-	I'm Daniel Sule and I'm the Lead Software Developer at SNL Global. My job includes managing and working on the
+	Daniel Sule is the Lead Software Developer at SNL Global. His job includes managing and working on the
 	various digital properties managed by SNL Global, including this one ;) as well as managing other developers on our Team.
 	<br><br>
-	I started out wanting to be an author, and while that dream is still alive somewhere, I opted for a degree in
-	Computer Science from the University of Jos, Nigeria and followed my current path from then on. I work as Lead
+	Daniel started out wanting to be an author, and while that dream is still alive somewhere, he opted for a degree in
+	Computer Science from the University of Jos, Nigeria and followed his current path from then on. He works as Lead
 	Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the development and release of in-house and
 	client projects.
 	<br><br>
-	Springing from my undergraduate Thesis, I published a paper on the importance of factual information in a democracy
-	and believe in building a just society for all people.
+	Springing from his undergraduate Thesis, he <a target="_blank" href="https://www.researchgate.net/publication/353202190_Towards_The_Design_And_Implementation_Of_A_Legislature-Electoral_Base_Information_Circulation_System">published a paper</a>
+	on the importance of factual information in a democracy and believes in building a just society for all people.
 	<br><br>
-	I've always been fascinated by the idea of science being used for the benefit of the common man. The fact that
-	advances in technology have democratized innovation in addition to being a huge part of my story, gives me hope for
+	Daniel has always been fascinated by the idea of science being used for the benefit of the common man. The fact that
+	advances in technology have democratized innovation in addition to being a huge part of his story, gives him hope for
 	the strides we can make going forward. That, after all, is what SNL Global stands for.
 	<br><br>
-	While I spend most of my spare time catching up on the latest news in tech and around the world, I'm an avid reader
+	While he spends most of his spare time catching up on the latest news in tech and around the world, he's an avid reader
 	who enjoys a good Tech YouTube video and the occasional binge.
 	`;
 	// elements: Array<string> = ['h1', 'h2', 'h3', 'h4'];

@@ -18,7 +18,7 @@
 .bio-head {
     font-size: 22pt;
     color: $primary;
-    margin: 20px 0px;
+    margin: 50px 0px 20px 0px;
 }
 
 .person {
@@ -108,13 +108,18 @@
         display: none;
     }
 
-    .bio, .photo {
-        width: 50%;
+    .bio {
+        width: 100%;
     }
 
     .person {
-        display: flex;
-        justify-content: space-evenly;
+        display: block;
+    }
+
+    .photo {
+        width: 80%;
+        margin: 50px auto;
+        display: block;
     }
 }
 
