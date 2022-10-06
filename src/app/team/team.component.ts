@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 	t_1: string = `
-	Lanre is the co-founder and Managing Director of SNL Global.
+	Lanre is the Managing Director of SNL Global.
 	He's an avid aerospace enthusiast with 20 years of technical and leadership experience in aerospace, aviation,
 	and defense industries across Africa, Europe, and the United States. He is an alum of Kingston University, UK;
 	George Washington University, USA; and University of Michigan, Ann Arbor, USA. He is also a senior member of
