@@ -62,7 +62,7 @@ export class TeamComponent implements OnInit {
 	Daniel Sule is the Lead Software Developer at SNL Global. His job includes managing and working on the
 	various digital properties managed by SNL Global, including this one ;) as well as managing other developers on our Team.
 	<br><br>
-	Daniel started holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
+	Daniel holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
 	from then on. He works as Lead Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the
 	development and release of in-house and client projects.
 	<br><br>
