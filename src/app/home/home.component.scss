@@ -18,7 +18,7 @@
     padding: 30px 0px 0px 0px;
 }
 
-.left-flex-div {
+.flex-sect {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -57,4 +57,71 @@
 
 .header-item > a:hover {
     color: $c3;
+}
+
+.top-header {
+    margin: 50px 10px;
+}
+
+.sect {
+    display: flex;
+    min-height: 80vh;
+}
+
+.left-sect, .right-sect {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    width: 70%;
+    height: 75%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-card {
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-head {
+    padding: 20px;
+    background-color: #0000006c;
+    color: $light;
+    font-size: 24pt;
+    line-height: 1.5em;
+}
+
+.text-card {
+    font-size: 18pt;
+    line-height: 1.5em;
+}
+
+.img1-card {
+    background-image: url('/assets/home/vision.jpg');
+}
+
+.img2-card {
+    background-image: url('/assets/home/it.jpg');
+}
+
+.img3-card {
+    background-image: url('/assets/home/education.jpg');
+}
+
+.img4-card {
+    background-image: url('/assets/home/experts.jpg');
+}
+
+.img5-card {
+    background-image: url('/assets/home/entertainment.jpg');
+}
+
+.img6-card {
+    background-image: url('/assets/home/business.jpg');
 }
