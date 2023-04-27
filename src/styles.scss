@@ -10,14 +10,15 @@ body {
     height: 100%;
 }
 
-@font-face {
-    font-family: Bahnschrift;
-    src: url(./assets/fonts/bahnschrift/BAHNSCHRIFT.TTF);
-}
+// @font-face {
+//     font-family: Bahnschrift;
+//     src: url(./assets/fonts/bahnschrift/BAHNSCHRIFT.TTF);
+// }
 
 body {
     margin: 0;
-    font-family: Bahnschrift, "Helvetica Neue", sans-serif;
+    // font-family: Bahnschrift, "Helvetica Neue", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *, .mat-typography {
@@ -36,13 +37,13 @@ a,
 }
 
 .alt-link-a:hover {
-    text-decoration: underline;
+    // text-decoration: underline;
     cursor: pointer;
 }
 
 a:hover,
 .link-a:hover {
-    text-decoration: underline;
+    // text-decoration: underline;
     cursor: pointer;
 }
 

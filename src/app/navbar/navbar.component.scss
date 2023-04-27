@@ -2,24 +2,61 @@
 
 .nav-item {
     padding-right: 40px;
+    font-size: 14pt;
+    font-weight: 600;
 }
 
 .nav-item a {
     color: $grey;
+    padding-bottom: 3px;
+    transition: border-bottom 0.25s;
 }
+
+.nav-item a:hover {
+    // animation: uline 0.5s forwards;
+    border-bottom: 2px solid black;
+}
+
+// @keyframes uline {
+//     from {
+//         border-bottom: none;
+//     }
+
+//     to {
+//         border-bottom: 2px solid black;
+//     }
+// }
 
 .mobile-nav-item{
     margin: 20px 15px;
     display: block;
 }
 
-// .mat-toolbar {
-//     background-color: #2f4f4f;
-// }
+.mat-toolbar {
+    background-color: $light;
+    height: 125px;
+}
+
+.s1 {
+    display: flex;
+    justify-content: flex-start;
+}
 
 .img-div {
-    height: 70%;
-    padding-right: 30px;
+    height: 70px;
+    width: 70px;
+    // margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: $primary;
+}
+
+.text-span {
+    margin-right: 30px;
+    font-size: 18pt;
+    font-weight: 600;
+    align-self: center;
 }
 
 .logo {
@@ -29,6 +66,7 @@
 .flex {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .mobile-flex {
