@@ -44,3 +44,18 @@
     line-height: 1.25em;
     font-weight: 500;
 }
+
+.lines {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.rotate-div {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    // width: 800px;
+    background-color: yellow;
+    border-bottom: 1px solid black;
+}
