@@ -28,8 +28,14 @@
 // }
 
 .mobile-nav-item{
-    margin: 20px 15px;
+    margin: 40px 15px;
     display: block;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.mobile-nav-item > a {
+    color: $light;
 }
 
 .mat-toolbar {
@@ -99,12 +105,21 @@
     }
 }
 
+.side-logo {
+    font-size: 24pt;
+    color: $primary;
+}
+
+.icon {
+    font-size: 18pt;
+}
+
 .sidenav {
     position: fixed;
     top: 0;
     height: 100vh;
-    min-width: 50%;
-    background-color: #2f4f4f;
+    width: 100%;
+    background-color: $dark;
     color: #ffffff;
 }
 
