@@ -196,6 +196,26 @@ textarea.mat-input-element {
     resize: none;
 }
 
+.button {
+    padding: 15px 35px;
+    font-size: 16pt;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.p-btn {
+    border-color: $primary;
+    background-color: $primary;
+    color: $light;
+}
+
+.l-btn {
+    border-color: $light;
+    background-color: $light;
+    color: $primary;
+}
+
 @media only screen and (max-width: 600px) {
 
     //smaller mobile devices

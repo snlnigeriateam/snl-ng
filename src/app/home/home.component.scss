@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.btn-div {
+    margin-top: 20px;
+}
+
 .d2 {
     display: flex;
     justify-content: flex-end;
@@ -45,17 +49,182 @@
     font-weight: 500;
 }
 
-.lines {
-    position: relative;
-    display: block;
-    width: 100%;
+.s-0-text {
+    width: 85%;
+}
+
+.s-0-gap {
+    width: 10%;
+}
+
+.s-0-head {
+    width: 90%;
+}
+
+.s-0-head-gap {
+    position: absolute;
+    width: 50px;
+    left: -50px;
+    bottom: -0.5px;
+    border-bottom: 0.5px solid #29292C;
 }
 
 .rotate-div {
     position: absolute;
-    left: 100px;
-    top: 30px;
-    // width: 800px;
-    background-color: yellow;
-    border-bottom: 1px solid black;
+    left: -50px;
+    height: 70px;
+    top: 50px;
+    transform: rotate(270deg);
+}
+
+.rotate-content {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.lines-heading {
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.lines-body {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lines-left {
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 1.5em;
+    width: 65%;
+}
+
+.lines-right {
+    width: 30%;
+    padding-top: 50px;
+}
+
+.upper-lines {
+    letter-spacing: 0.25em;
+    font-size: 12pt;
+}
+
+.services {
+    font-size: 14pt;
+    line-height: 1.75em;
+}
+
+.s0, .s1, .s2 {
+    display: flex;
+}
+
+.s-img {
+    width: 40%;
+}
+
+.s-i {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.s-text {
+    width: 55%;
+}
+
+.s-head {
+    font-size: 12pt;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 20px;
+    border-left: 0.5px solid #29292C;
+}
+
+.s-content {
+    padding: 20px;
+    border-top: 0.5px solid #29292C;
+    border-left: 0.5px solid #29292C;
+}
+
+.s-subhead {
+    font-size: 24pt;
+    font-weight: bold;
+    line-height: 1.35em;
+    padding-bottom: 30px;
+}
+
+.s-body {
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    font-size: 13pt;
+}
+
+.s-2-gap {
+    width: 20%;
+}
+
+.s-2-text {
+    width: 40%;
+}
+
+.s-2-img {
+    width: 35%;
+}
+
+.s-2-head, .s-0-head {
+    position: relative;
+}
+
+.s-2-head-gap {
+    position: absolute;
+    width: 70px;
+    left: -70px;
+    bottom: -0.5px;
+    border-bottom: 0.5px solid #29292C;
+}
+
+.s3 {
+    background-color: #F3F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-3-img {
+    width: 45%;
+}
+
+.s-3-text {
+    width: 50%;
+    font-size: 30pt;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.s4 {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    background-color: $primary;
+}
+
+.s-4-content {
+    width: 90%;
+    display: flex;
+}
+
+.s-4-subhead {
+    width: 70%;
+    text-align: left;
+    font-size: 25pt;
+    color: $light;
+    line-height: 1.25em;
+    font-weight: 600;
+}
+
+.s-4-btn {
+    width: 25%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
 }

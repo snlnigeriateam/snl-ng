@@ -1,4 +1,4 @@
-<mat-toolbar class="flex" color="accent">
+<mat-toolbar class="flex navbar" color="accent">
 	<div class="s1">
 		<div class="img-div">
 			<span class="img-span">
@@ -10,6 +10,9 @@
 	<div>
 		<span class="nav-item"><a [routerLink]="['/team']">Our team</a></span>
 		<!-- <span class="nav-item"><a [routerLink]="['/']"> Careers</a></span> -->
-		<span class="nav-item"><a [routerLink]="['/contact']">Contact</a></span>
+		<span class="nav-item">
+			<button [routerLink]="['/contact']" class="button p-btn hov">Contact</button>
+		</span>
+		<!-- <span class="nav-item"><a [routerLink]="['/contact']">Contact</a></span> -->
 	</div>
 </mat-toolbar>
