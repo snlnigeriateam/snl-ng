@@ -1,13 +1,38 @@
 @import 'variables.scss';
 
 .main {
-    width: 80%;
+    width: 90%;
     margin-top: 10px;
 }
 
 .header {
-    font-size: 26pt;
-    margin: 25px 0px;
+    font-size: 14pt;
+    margin: 50px 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.title-div {
+    width: 100%;
+}
+
+.title {
+    font-size: 32pt;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 10px 0px 30px 0px;
+}
+
+.pitch {
+    font-size: 14pt;
+    line-height: 1.5em;
+}
+
+.subtitle {
+    font-size: 28pt;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 100px 0px 10px 0px;
 }
 
 .bio {
@@ -45,6 +70,16 @@
     border-radius: 25px;
 }
 
+.p-n {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-r {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media only screen and (max-width: 600px) {
 
     //smaller mobile devices
@@ -68,6 +103,10 @@
         width: 80%;
         margin: 50px auto;
         display: block;
+    }
+
+    .title-div {
+        width: 100%;
     }
 }
 
@@ -95,6 +134,10 @@
         margin: 50px auto;
         display: block;
     }
+
+    .title-div {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -121,6 +164,10 @@
         margin: 50px auto;
         display: block;
     }
+
+    .title-div {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -134,13 +181,18 @@
         display: block;
     }
 
-    .bio, .photo {
+    .bio,
+    .photo {
         width: 50%;
     }
 
     .person {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .title-div {
+        width: 60%;
     }
 }
 
@@ -155,12 +207,17 @@
         display: block;
     }
 
-    .bio, .photo {
+    .bio,
+    .photo {
         width: 50%;
     }
 
     .person {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .title-div {
+        width: 60%;
     }
 }
