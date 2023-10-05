@@ -19,13 +19,13 @@ export class HomeComponent implements OnInit {
 	}
 
 	scrollTrigger(selector: string, options = {}) {
-		// Multiple element can have same class/selector,
+		// Multiple elements can have same class/selector,
 		// so we are using querySelectorAll
 		let els = document.querySelectorAll(selector);
 		// The above `querySelectorAll` returns a nodeList,
 		// so we are converting it to an array
 		// els = Array.from(els)
-		// Now we are iterating over the elements array
+		// Now we are iterating over the elements in the array
 		els.forEach(el => {
 			// `addObserver function` will attach the IntersectionObserver to the element
 			// We will create this function next
