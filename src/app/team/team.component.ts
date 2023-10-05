@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 	t_1: string = `
-	Lanre is the Managing Director of SNL Global.
+	Lanre is the Managing Director of SNL Nigeria.
 	He's an avid aerospace enthusiast with 20 years of technical and leadership experience in aerospace, aviation,
 	and defense industries across Africa, Europe, and the United States. He is an alum of Kingston University, UK;
 	George Washington University, USA; and University of Michigan, Ann Arbor, USA. He is also a senior member of
@@ -22,7 +22,7 @@ export class TeamComponent implements OnInit {
 	`;
 
 	t_3: string = `
-	Wale Sanya is the Director of Operations at SNL Global.
+	Wale Sanya is the Director of Operations at SNL Nigeria.
 	He manages the day to day activities of the establishment and oversees other departments of our organisation
 	<br><br>
 	Wale is a published COREN certified engineer who holds a bachelor's degree from the University of Ilorin and a
@@ -34,8 +34,8 @@ export class TeamComponent implements OnInit {
 	`;
 	
 	t_4: string = `
-	Bamkat Ephraim Musa is the Project Architect at SNL Global. He works on general building construction
-	at SNL Global.
+	Bamkat Ephraim Musa is the Project Architect at SNL Nigeria. He works on general building construction
+	at SNL Nigeria.
 	<br><br>
 	Bamkat is a graduate of architecture with the University of Jos, Nigeria, and has worked on various federal and state
 	projects. He believes in using advanced solutions to bring about global change and having to explore potentials to
@@ -45,7 +45,7 @@ export class TeamComponent implements OnInit {
 	`;
 
 	t_5: string = `
-	Makan King David coordinates Media and IT endeavours at SNL Global. From sonic and visual elements to
+	Makan King David coordinates Media and IT endeavours at SNL Nigeria. From sonic and visual elements to
 	things going on in the background that make what we do work. He's a jack of all trades and an adept master of one or
 	two.
 	<br><br>
@@ -59,8 +59,8 @@ export class TeamComponent implements OnInit {
 	`;
 
 	t_6: string = `
-	Daniel Sule is the Lead Software Developer at SNL Global. His job includes managing and working on the
-	various digital properties managed by SNL Global, including this one ;) as well as managing other developers on our Team.
+	Daniel Sule is the Lead Software Developer at SNL Nigeria. His job includes managing and working on the
+	various digital properties managed by SNL Nigeria, including this one ;) as well as managing other developers on our Team.
 	<br><br>
 	Daniel holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
 	from then on. He works as Lead Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the
@@ -68,7 +68,7 @@ export class TeamComponent implements OnInit {
 	<br><br>
 	Daniel has always been fascinated by the idea of science being used for the benefit of the common man. The fact that
 	advances in technology have democratized innovation in addition to being a huge part of his story, gives him hope for
-	the strides we can make going forward. That, after all, is what SNL Global stands for.
+	the strides we can make going forward. That, after all, is what SNL Nigeria stands for.
 	`;
 	// elements: Array<string> = ['h1', 'h2', 'h3', 'h4'];
 
