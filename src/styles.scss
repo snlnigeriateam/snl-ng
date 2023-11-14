@@ -26,6 +26,12 @@ body {
     // font-family: Bahnschrift, sans-serif;
 }
 
+.mat-h2, .mat-title, .mat-typography .mat-h2, .mat-typography .mat-title, .mat-typography h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
 a,
 .link-a {
     color: $links;
@@ -198,10 +204,10 @@ textarea.mat-input-element {
 
 .button {
     padding: 15px 35px;
-    font-size: 16pt;
-    border-width: 1px;
-    border-style: solid;
+    font-size: 12pt;
+    border: none;
     border-radius: 30px;
+    min-width: 200px;
 }
 
 .p-btn {
