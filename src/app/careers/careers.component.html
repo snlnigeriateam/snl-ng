@@ -1,1 +1,56 @@
-<p>careers works!</p>
+<div class="main center">
+	<div *ngIf="pageLoading">
+		<br><br>
+		<app-loading></app-loading>
+		<br><br>
+	</div>
+	<div *ngIf="!pageLoading" class="title-div">
+		<div class="f-1">
+			<div class="header">Careers</div>
+			<div class="title">Join a team dedicated to<br>making ideas <span class="primary">work</span>
+			</div>
+			<div *ngIf="rounds.length !== 0" class="btn-div">
+				<button (click)="nav()" class="button p-btn">
+					View all Job Openings
+				</button>
+			</div>
+		</div>
+		<div class="f-2">
+			<img src="/assets/careers/p1.png" class="img desktop"
+				alt="Five hands using their fingers to create a star demonstrating teamwork, along with the SNL Nigeria logo at the bottom-right">
+		</div>
+	</div>
+	<div *ngIf="!pageLoading" class="pos-div">
+		<div *ngIf="rounds.length !== 0" class="subtitle center-text" id="job-openings">Open Positions</div>
+		<div *ngIf="rounds.length === 0" class="sub center-text italic">SNL Nigeria is not currently hiring</div>
+		<div *ngIf="rounds.length !== 0" class="pitch">
+			A career at SNL Nigeria is an exciting opportunity to work with some of the top minds in the country
+			collaborating on projects on large, medium and small
+			scales, each impacting society in multiple ways. SNL Nigeria is an equal-opportunity employer that
+			does not discriminate on any bases. Candidates who meet
+			the qualifications stated below are encouraged to fill out the Application Form.
+		</div>
+		<br><br>
+		<mat-accordion *ngFor="let round of rounds">
+			<mat-expansion-panel *ngFor="let pos of round.positions">
+				<mat-expansion-panel-header>
+					<mat-panel-title>
+						{{pos.name}}
+					</mat-panel-title>
+					<mat-panel-description>
+						<span class="bold">End Date:&nbsp; </span> {{round.end_date}}
+					</mat-panel-description>
+				</mat-expansion-panel-header>
+				<div>
+					<div class="f2">
+						{{pos.name}}
+					</div>
+					<div *ngFor="let seg of pos.segments" class="{{seg.format}}" innerHTML="{{seg.text}}">
+					</div>
+				</div>
+			</mat-expansion-panel>
+			<br><br>
+		</mat-accordion>
+
+	</div>
+</div>

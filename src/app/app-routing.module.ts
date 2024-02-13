@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { TeamComponent } from './team/team.component';
+import { CareersComponent } from './careers/careers.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: 'team', component: TeamComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '', pathMatch: 'full', component: HomeComponent, title: 'SNL Nigeria' },
+  { path: 'team', component: TeamComponent, title: 'Our Team | SNL Nigeria' },
+  { path: 'contact', component: ContactComponent, title: 'Contact Us | SNL Nigeria' },
+  { path: 'careers', component: CareersComponent, title: 'Careers | SNL Nigeria' }
 ];
 
 @NgModule({

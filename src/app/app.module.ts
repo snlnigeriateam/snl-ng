@@ -13,6 +13,7 @@ import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatInputModule } from "@angular/material/input";
 import { MatSelectModule } from "@angular/material/select";
+import { MatExpansionModule } from "@angular/material/expansion";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -60,6 +61,7 @@ import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
     MatNativeDateModule,
     MatProgressSpinnerModule,
     MatSelectModule,
+    MatExpansionModule,
   ],
   providers: [AlertsComponent, { provide: MAT_DATE_LOCALE, useValue: 'en-GB' }],
   bootstrap: [AppComponent]
