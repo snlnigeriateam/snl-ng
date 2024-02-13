@@ -47,6 +47,11 @@
 					</div>
 					<div *ngFor="let seg of pos.segments" class="{{seg.format}}" innerHTML="{{seg.text}}">
 					</div>
+					<div class="right-text">
+						<button (click)="apply(round.r_id, pos.p_id)" class="button p-btn hov">
+							Apply Now
+						</button>
+					</div>
 				</div>
 			</mat-expansion-panel>
 			<br><br>

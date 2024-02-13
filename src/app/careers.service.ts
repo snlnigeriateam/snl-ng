@@ -15,7 +15,13 @@ export class CareersService {
 		return this.request.request('hiring-rounds', 'get');
 	}
 
+	loadHiringRound(r_id: string): Observable<any> {
+		return this.request.request('hiring-round', 'post', {
+			r_id: r_id
+		});
+	}
+
 	apply(formData: FormData): Observable<any> {
-		return this.request.fileRequest('', 'post', formData);
+		return this.request.fileRequest('apply', 'post', formData);
 	}
 }

@@ -29,6 +29,7 @@ import { AlertDialogComponent } from './alert-dialog/alert-dialog.component';
 import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
 import { LoadingComponent } from './loading/loading.component';
 import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
+import { ApplyComponent } from './apply/apply.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
     AlertsComponent,
     AlertDialogComponent,
     ConfirmDialogComponent,
-    LoadingComponent
+    LoadingComponent,
+    ApplyComponent
   ],
   imports: [
     BrowserModule,

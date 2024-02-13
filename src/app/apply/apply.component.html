@@ -1,0 +1,55 @@
+<div class="center-text center sect">
+	<mat-card>
+		<h2 class="h2 primary">SNL Nigeria Job Application</h2>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>*First Name</mat-label>
+			<input type="text" matInput [(ngModel)]="f_name" autocomplete="given-name">
+		</mat-form-field>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>*Last Name</mat-label>
+			<input type="text" matInput [(ngModel)]="l_name" autocomplete="family-name">
+		</mat-form-field>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>Other Names</mat-label>
+			<input type="text" matInput [(ngModel)]="o_name" autocomplete="additional-name">
+		</mat-form-field>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>*Email Address</mat-label>
+			<input type="email" matInput [(ngModel)]="email" autocomplete="email">
+		</mat-form-field>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>*Phone Number</mat-label>
+			<input type="tel" matInput [(ngModel)]="phone" autocomplete="tel">
+		</mat-form-field>
+		<br><br>
+		<mat-form-field class="m-input" appearance="fill" color="primary">
+			<mat-label>*Address</mat-label>
+			<textarea type="text" matInput [(ngModel)]="address" autocomplete="street-address"></textarea>
+		</mat-form-field>
+		<br><br>
+		<div>
+			<h4 class="bold">
+				*Upload your Curriculum Vitae/Résumé
+				<br>
+				PDF files only. Maximum size: 5MB
+			</h4>
+			<div class="upload-div center">
+				<label class="custom-file-upload">
+					<input type="file" accept=".pdf" (change)="selFile($event)">
+					Select File
+				</label>
+				<span class="filename">{{fileName}}</span>
+			</div>
+		</div>
+		<br><br>
+		<button *ngIf="!applyLoading" class="button p-btn hov" (click)="validate()" mat-raised-button
+			color="primary">Apply Now</button>
+		<app-loading *ngIf="applyLoading"></app-loading>
+	</mat-card>
+	<br><br><br>
+</div>

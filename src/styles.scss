@@ -193,7 +193,7 @@ a:hover,
 textarea,
 textarea.mat-input-element {
     height: 10em;
-    resize: none;
+    resize: none !important;
 }
 
 .button {

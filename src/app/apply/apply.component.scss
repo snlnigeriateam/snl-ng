@@ -1,0 +1,120 @@
+.sect {
+    width: 90%;
+}
+
+.m-input {
+    width: 65%;
+}
+
+.p-btn {
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-size: 14pt;
+    margin-bottom: 40px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-div {
+    border: 1px dotted grey;
+    padding: 20px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.custom-file-upload {
+    // border: 1px solid #ccc;
+    background-color: #101010;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.filename {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    //smaller mobile devices
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .sect {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    //small mobile devices
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .sect {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    //tablets
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .sect {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    //laptops and larger
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .sect {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    //laptops and larger
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .sect {
+        width: 50%;
+    }
+}
