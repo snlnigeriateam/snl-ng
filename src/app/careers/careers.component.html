@@ -34,10 +34,10 @@
 		<mat-accordion *ngFor="let round of rounds">
 			<mat-expansion-panel *ngFor="let pos of round.positions">
 				<mat-expansion-panel-header>
-					<mat-panel-title>
+					<mat-panel-title class="pos-title">
 						{{pos.name}}
 					</mat-panel-title>
-					<mat-panel-description>
+					<mat-panel-description class="desktop">
 						<span class="bold">End Date:&nbsp; </span> {{round.end_date}}
 					</mat-panel-description>
 				</mat-expansion-panel-header>

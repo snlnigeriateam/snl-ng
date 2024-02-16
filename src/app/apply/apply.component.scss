@@ -3,7 +3,7 @@
 }
 
 .m-input {
-    width: 65%;
+    width: 85%;
 }
 
 .p-btn {
@@ -69,6 +69,10 @@ input[type="file"] {
     .sect {
         width: 85%;
     }
+
+    .m-input {
+        width: 85%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -84,6 +88,10 @@ input[type="file"] {
 
     .sect {
         width: 75%;
+    }
+
+    .m-input {
+        width: 85%;
     }
 }
 
@@ -101,6 +109,10 @@ input[type="file"] {
     .sect {
         width: 70%;
     }
+
+    .m-input {
+        width: 70%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -116,5 +128,9 @@ input[type="file"] {
 
     .sect {
         width: 50%;
+    }
+
+    .m-input {
+        width: 65%;
     }
 }
