@@ -99,7 +99,7 @@ export class ApplyComponent implements OnInit {
 			next: (data) => {
 				this.applyLoading = false;
 				if (data.success) {
-					this.alerts.alert("Your Application has been received successfully. You will be notified via email of next steps", false);
+					this.alerts.alert("Your Application has been received successfully. Please check your Inbox to ensure you received our confirmation Email", false);
 					this.router.navigate(['/']);
 				}
 				else {
