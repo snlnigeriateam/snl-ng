@@ -63,7 +63,7 @@ export class TeamComponent implements OnInit {
 	various digital properties managed by SNL Nigeria, including this one ;) as well as managing other developers on our Team.
 	<br><br>
 	Daniel holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
-	from then on. He works as Lead Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the
+	from then on. Daniel has worked across a variety of p He works as Lead Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the
 	development and release of in-house and client projects.
 	<br><br>
 	Daniel has always been fascinated by the idea of science being used for the benefit of the common man. The fact that
