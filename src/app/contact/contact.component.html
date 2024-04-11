@@ -1,33 +1,57 @@
-<div>
+<div class="main">
+	<div class="header">Let's Talk</div>
+	<div class="title-div">
+		<div class="title">What do you want for your <span class="primary">project?</span></div>
+	</div>
 	<div class="contact-div center">
-		<mat-card>
-			<div class="header primary center-text">Reach out to SNL Nigeria</div>
-			<div class="flex">
-				<div class="f-div">
-					<div class="primary subhead">Office Address</div>
-					<div class="content">
-						SNL Nigeria Head Office,
-						<br>
-						Obasanjo Space Centre,
-						<br>
-						Umaru Musa Yar'adua Express Way,
-						<br>
-						P.M.B. 437,
-						<br>
-						Garki, Abuja,
-						<br>
-						Nigeria
-					</div>
-				</div>
-				<div class="f-div">
-					<div class="primary subhead">Contact Information</div>
-					<div class="content">
-						Email: <a href="mailto:contact@snlglobal.net">contact@snlglobal.net</a>
-						<br>
-						Tel: <a href="tel:+2348001234567">+2348001234567</a>
-					</div>
-				</div>
+		<div class="l-div">
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>*Your Full Name</mat-label>
+				<input type="text" matInput [(ngModel)]="name" autocomplete="name">
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>*Email Address</mat-label>
+				<input type="email" matInput [(ngModel)]="email" autocomplete="email">
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>*Phone Number</mat-label>
+				<input type="tel" matInput [(ngModel)]="phone" autocomplete="tel">
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>Website</mat-label>
+				<input type="text" matInput [(ngModel)]="website" autocomplete="url">
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>*Nature of Inquiry</mat-label>
+				<mat-select [(ngModel)]="nature">
+					<mat-option *ngFor="let nature of natures" [value]="nature.code">{{nature.text}}</mat-option>
+				</mat-select>
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>*What is your Inquiry?</mat-label>
+				<textarea type="text" matInput [(ngModel)]="query" autocomplete="off"></textarea>
+			</mat-form-field>
+			<br><br>
+			<mat-form-field class="m-input" appearance="fill" color="primary">
+				<mat-label>How did you hear about SNL Nigeria?</mat-label>
+				<input type="text" matInput [(ngModel)]="referrer" autocomplete="off" (keyup.enter)="validate()">
+			</mat-form-field>
+			<br><br>
+			<div class="center-text m-input">
+				<br><br>
+				<button *ngIf="!contactLoading" class="button p-btn hov" (click)="validate()" mat-raised-button
+					color="primary">Reach Out</button>
 			</div>
-		</mat-card>
+			<app-loading *ngIf="contactLoading"></app-loading>
+		</div>
+		<div class="r-div">
+			<img src="/assets/contact/contact-bg.png" loading="lazy" alt="Decorative photo of individuals interacting"
+				class="img">
+		</div>
 	</div>
 </div>
