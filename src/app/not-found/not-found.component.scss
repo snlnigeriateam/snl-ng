@@ -1,0 +1,103 @@
+.not-found-div {
+    min-height: 100vh;
+}
+
+.s0 {
+    display: flex;
+}
+
+.s-0-text {
+    width: 85%;
+}
+
+.s-0-gap {
+    width: 10%;
+}
+
+.s-0-head {
+    width: 90%;
+}
+
+.s-0-head-gap {
+    position: absolute;
+    width: 50px;
+    left: -50px;
+    bottom: -0.5px;
+    border-bottom: 0.5px solid #29292C;
+}
+
+.rotate-div {
+    position: absolute;
+    left: -50px;
+    height: 70px;
+    top: 50px;
+    transform: rotate(270deg);
+}
+
+.rotate-content {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.lines-heading {
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.lines-body {
+    position: relative;
+}
+
+.lines-left {
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 1.5em;
+}
+
+.lines-right {
+    // width: 30%;
+    padding-top: 50px;
+}
+
+.upper-lines {
+    letter-spacing: 0.25em;
+    font-size: 12pt;
+}
+
+
+.s-head {
+    font-size: 12pt;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding: 20px;
+    border-left: 0.5px solid #29292C;
+}
+
+.s-content {
+    padding: 20px;
+    border-top: 0.5px solid #29292C;
+    border-left: 0.5px solid #29292C;
+}
+
+.s-subhead {
+    font-size: 24pt;
+    font-weight: bold;
+    line-height: 1.35em;
+    padding-bottom: 30px;
+}
+
+.s-body {
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    font-size: 13pt;
+}
+
+.s-text,
+.s-2-text {
+    margin: 0px 0px 50px 50px;
+}
+
+.s-2-head,
+.s-0-head {
+    position: relative;
+}

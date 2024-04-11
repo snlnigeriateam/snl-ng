@@ -30,6 +30,8 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
 import { LoadingComponent } from './loading/loading.component';
 import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
 import { ApplyComponent } from './apply/apply.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { RealtorComponent } from './realtor/realtor.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { ApplyComponent } from './apply/apply.component';
     AlertDialogComponent,
     ConfirmDialogComponent,
     LoadingComponent,
-    ApplyComponent
+    ApplyComponent,
+    NotFoundComponent,
+    RealtorComponent
   ],
   imports: [
     BrowserModule,
