@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /contact
 Allow: /
-Disallow: /team
+Allow: /team
 
 
 Sitemap: https://www.snlnigeria.org/sitemap.txt
