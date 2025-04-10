@@ -18,7 +18,7 @@ export class TeamComponent implements OnInit {
 	// and enjoys well-earned time off with his wife and 3 kids.
 	// `;
 	t_1: string = `
-	Mr Oyebo works at SNL Nigeria.
+	Mr. Lanre Oyebo is a Senior Advisory Consultant at SNL Nigeria.
 	He's an avid aerospace enthusiast with 20 years of technical and leadership experience in aerospace, aviation,
 	and defense industries across Africa, Europe, and the United States. He is an alum of Kingston University, UK;
 	George Washington University, USA; and University of Michigan, Ann Arbor, USA. He is also a senior member of
