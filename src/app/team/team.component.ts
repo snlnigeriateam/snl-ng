@@ -19,10 +19,7 @@ export class TeamComponent implements OnInit {
 	// `;
 	t_1: string = `
 	Mr. Lanre Oyebo is a Senior Advisory Consultant at SNL Nigeria.
-	He's an avid aerospace enthusiast with 20 years of technical and leadership experience in aerospace, aviation,
-	and defense industries across Africa, Europe, and the United States. He is an alum of Kingston University, UK;
-	George Washington University, USA; and University of Michigan, Ann Arbor, USA. He is also a senior member of
-	multiple Aerospace and Aviation professional bodies.
+	He's an avid aerospace enthusiast with experience and interest in aerospace, aviation, and related fields.
 	<br><br>
 	His interests in aerospace and science more broadly spring from his desire to see everyday people improve
 	through the many applications of science to modern-day society. He is a practical thinker who is mission-minded and hyper-focused
