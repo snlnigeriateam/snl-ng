@@ -21,7 +21,7 @@ export class TeamComponent implements OnInit {
 	Mr. Lanre Oyebo is a Senior Advisory Consultant at SNL Nigeria.
 	He's an avid aerospace enthusiast with experience and interest in aerospace, aviation, and related fields.
 	<br><br>
-	His interests in aerospace and science more broadly spring from his desire to see everyday people improve
+	Lanre Oyebo has interests in aerospace and science more broadly which spring from his desire to see everyday people improve
 	through the many applications of science to modern-day society. He is a practical thinker who is mission-minded and hyper-focused
 	on the task of bringing the value of technology to the everyday man.
 	`;
