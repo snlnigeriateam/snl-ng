@@ -25,15 +25,15 @@ export class TeamComponent implements OnInit {
 	through the many applications of science to modern-day society. He is a practical thinker who is mission-minded and hyper-focused
 	on the task of bringing the value of technology to the everyday man.
 	`;
-	t_2: string = `
-	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur nesciunt libero distinctio ipsum similique minus est enim quod dolorem assumenda quia, laborum ipsam, excepturi maxime omnis quos molestiae! Quae.
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos consectetur id neque. Repudiandae maxime minima nemo aperiam delectus consequatur rerum, nihil, ea nobis debitis a vel dolorem voluptates reiciendis?
-	`;
+	// t_2: string = `
+	// Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur nesciunt libero distinctio ipsum similique minus est enim quod dolorem assumenda quia, laborum ipsam, excepturi maxime omnis quos molestiae! Quae.
+	// Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos consectetur id neque. Repudiandae maxime minima nemo aperiam delectus consequatur rerum, nihil, ea nobis debitis a vel dolorem voluptates reiciendis?
+	// `;
 	
-	t_3: string = `
-	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur nesciunt libero distinctio ipsum similique minus est enim quod dolorem assumenda quia, laborum ipsam, excepturi maxime omnis quos molestiae! Quae.
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos consectetur id neque. Repudiandae maxime minima nemo aperiam delectus consequatur rerum, nihil, ea nobis debitis a vel dolorem voluptates reiciendis?
-	`;
+	// t_3: string = `
+	// Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur nesciunt libero distinctio ipsum similique minus est enim quod dolorem assumenda quia, laborum ipsam, excepturi maxime omnis quos molestiae! Quae.
+	// Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos consectetur id neque. Repudiandae maxime minima nemo aperiam delectus consequatur rerum, nihil, ea nobis debitis a vel dolorem voluptates reiciendis?
+	// `;
 
 	// t_3: string = `
 	// Wale Sanya is the Director of Operations at SNL Nigeria.
@@ -47,16 +47,16 @@ export class TeamComponent implements OnInit {
 	// and playing football.
 	// `;
 	
-	// t_4: string = `
-	// Bamkat Ephraim Musa is the Project Architect at SNL Nigeria. He works on general building construction
-	// at SNL Nigeria.
-	// <br><br>
-	// Bamkat is a graduate of architecture with the University of Jos, Nigeria, and has worked on various federal and state
-	// projects. He believes in using advanced solutions to bring about global change and having to explore potentials to
-	// attain maximum satisfaction. He's passionate about advanced technology bringing simplicity into day to day living.
-	// <br><br>
-	// In his spare time, he enjoys cycling as well as playing basketball and the drums.
-	// `;
+	t_2: string = `
+	Bamkat Ephraim Musa is the Project Architect at SNL Nigeria. He works on general building construction
+	at SNL Nigeria.
+	<br><br>
+	Bamkat is a graduate of architecture with the University of Jos, Nigeria, and has worked on various federal and state
+	projects. He believes in using advanced solutions to bring about global change and having to explore potentials to
+	attain maximum satisfaction. He's passionate about advanced technology bringing simplicity into day to day living.
+	<br><br>
+	In his spare time, he enjoys cycling as well as playing basketball and the drums.
+	`;
 
 	// t_5: string = `
 	// Makan King David coordinates Media and IT endeavours at SNL Nigeria. From sonic and visual elements to
@@ -72,18 +72,17 @@ export class TeamComponent implements OnInit {
 	// forward to being part of work that embodies this belief. He looks forward to having the most meaningful fun with as many people as possible.
 	// `;
 
-	// t_6: string = `
-	// Daniel Sule is the Lead Software Developer at SNL Nigeria. His job includes managing and working on the
-	// various digital properties managed by SNL Nigeria, including this one ;) as well as managing other developers on our Team.
-	// <br><br>
-	// Daniel holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
-	// from then on. Daniel has worked across a variety of p He works as Lead Software Developer/Founder of Nucleus Technologies, Nigeria, overseeing the
-	// development and release of in-house and client projects.
-	// <br><br>
-	// Daniel has always been fascinated by the idea of science being used for the benefit of the common man. The fact that
-	// advances in technology have democratized innovation in addition to being a huge part of his story, gives him hope for
-	// the strides we can make going forward. That, after all, is what SNL Nigeria stands for.
-	// `;
+	t_3: string = `
+	Daniel Sule is the Director of Operations at SNL Nigeria.
+	He manages the day to day activities of the establishment and oversees other departments of our organisation.
+	<br><br>
+	Daniel holds a degree in Computer Science from the University of Jos, Nigeria and followed his current path
+	from then on. He has worked on various projects in the tech industry, including software development, consulting, and product management.
+	<br><br>
+	Daniel has always been fascinated by the idea of science being used for the benefit of the common man. The fact that
+	advances in technology have democratized innovation in addition to being a huge part of his story, gives him hope for
+	the strides we can make going forward. That, after all, is what SNL Nigeria stands for.
+	`;
 	// elements: Array<string> = ['h1', 'h2', 'h3', 'h4'];
 
 	constructor() { }
